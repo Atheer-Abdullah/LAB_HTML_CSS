@@ -8,19 +8,40 @@
 }
 
 /* =============================== */
+/* ROOT (إضافة احترافية) */
+/* =============================== */
+:root{
+  --primary:#4f7cff;
+  --primary-soft:#dbeafe;
+  --primary-dark:#2f5fd0;
+
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --border:#e2e8f0;
+
+  --text:#1e293b;
+  --text-light:#64748b;
+
+  --footer:#1e293b;
+}
+
+/* =============================== */
 /* BODY */
 /* =============================== */
 body{
   font-family:'Poppins', sans-serif;
-  background:#f8fafc;
-  color:#1e293b;
+  background:var(--bg);
+  color:var(--text);
 }
 
 /* =============================== */
 /* NAVBAR */
 /* =============================== */
 .navbar{
-  background:#2f5fd0;
+  background:rgba(47,95,208,0.9);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,0.2);
+
   box-shadow:0 4px 10px rgba(0,0,0,0.1);
   display:flex;
   align-items:center;
@@ -73,11 +94,13 @@ body{
   background:linear-gradient(135deg, #4f7cff, #6fa3ff);
   color:white;
   text-align:center;
-  padding:80px 20px;
+  padding:100px 20px;
 }
 
 .hero h1{
-  font-size:40px;
+  font-size:48px;
+  font-weight:600;
+  letter-spacing:-1px;
   margin-bottom:10px;
   transition:0.3s;
   cursor:pointer;
@@ -87,16 +110,21 @@ body{
   color:#1f63d0;
 }
 
+.hero p{
+  font-size:18px;
+  color:#e0f2fe;
+}
+
 /* =============================== */
 /* TOOLBAR */
 /* =============================== */
-/* نفس تصميم السايدبار */
 .toolbar{
   display:flex;
   justify-content:center;
   gap:12px;
   margin-top:25px;
 }
+
 .toolbar button{
   width:50px;
   height:50px;
@@ -111,17 +139,17 @@ body{
   align-items:center;
   justify-content:center;
 }
-/* الأيقونات */
+
 .toolbar i{
   font-size:18px;
   color:white;
 }
 
-/* hover نفس السايدبار */
 .toolbar button:hover{
   background:rgba(255,255,255,0.3);
   transform:translateY(-3px) scale(1.05);
 }
+
 /* =============================== */
 /* CARDS */
 /* =============================== */
@@ -133,10 +161,10 @@ body{
 }
 
 .card{
-  background:#ffffff;
-  border:1px solid #e2e8f0;
+  background:var(--card);
+  border:1px solid var(--border);
   padding:20px;
-  border-radius:12px;
+  border-radius:16px;
   text-align:center;
   transition:0.3s;
 
@@ -144,15 +172,18 @@ body{
   flex-direction:column;
   align-items:center;
   gap:10px;
+
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
 }
 
 .card:hover{
-  transform:translateY(-5px);
+  transform:translateY(-5px) scale(1.02);
+  box-shadow:0 15px 30px rgba(0,0,0,0.08);
 }
 
 .card i{
   font-size:26px;
-  color:#4f7cff;
+  color:var(--primary);
   transition:0.3s;
 }
 
@@ -164,28 +195,31 @@ body{
 /* MAIN */
 /* =============================== */
 main{
-  max-width:900px;
+  max-width:1000px;
   margin:auto;
   padding:20px;
 }
 
 /* =============================== */
-/* SECTION (موحد بدل تكرار) */
+/* SECTION */
 /* =============================== */
 section{
   background:white;
-  padding:30px;
-  border-radius:12px;
+  padding:40px;
+  border-radius:16px;
   margin-bottom:40px;
   box-shadow:0 5px 15px rgba(0,0,0,0.05);
 }
 
 h2{
   margin-bottom:20px;
+  font-size:26px;
+  font-weight:600;
 }
 
 p{
   line-height:1.7;
+  color:var(--text-light);
 }
 
 /* =============================== */
@@ -222,10 +256,17 @@ p{
 }
 
 .info-box{
-  background:#ffffff;
+  background:var(--card);
   padding:20px;
-  border-radius:10px;
-  border-left:4px solid #4f7cff;
+  border-radius:12px;
+  border-left:4px solid var(--primary);
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.03);
+  transition:0.3s;
+}
+
+.info-box:hover{
+  transform:translateY(-4px);
 }
 
 .info-box h3{
@@ -263,7 +304,7 @@ table{
 }
 
 thead{
-  background:#5b8def;
+  background:var(--primary);
   color:white;
 }
 
@@ -321,7 +362,7 @@ a:hover{
 }
 
 .sidebar button{
-  background:#5b8def;
+  background:var(--primary);
   color:white;
   border:none;
   padding:12px;
@@ -331,14 +372,14 @@ a:hover{
 }
 
 .sidebar button:hover{
-  background:#2f5fd0;
+  background:var(--primary-dark);
 }
 
 /* =============================== */
 /* FOOTER + BADGES */
 /* =============================== */
 footer{
-  background:#1e293b;
+  background:var(--footer);
   color:white;
   text-align:center;
   padding:30px 20px 10px;
@@ -349,14 +390,12 @@ footer{
   justify-content:center;
   gap:40px;
   padding:20px 0 40px;
-  background:#1e293b;
+  background:var(--footer);
   color:white;
   font-weight:bold;
   flex-wrap:wrap;
-  
-  border-radius:0; /* يلغي التدوير */
+  border-radius:0;
 }
-
 
 .badges div{
   display:flex;
@@ -370,10 +409,12 @@ footer{
 i{
   display:inline-block;
   vertical-align:middle;
-  
 }
 
-@media (max-width:768px){
+/* =============================== */
+/* RESPONSIVE */
+/* =============================== */
+@media (max-width:480px){
 
   .intro{
     flex-direction:column;
@@ -389,7 +430,12 @@ i{
   }
 
   .hero h1{
-    font-size:26px;
+    font-size:22px;
+  }
+  
+  .toolbar button{
+    width:40px;
+    height:40px;
   }
 
   .hero p{
@@ -399,4 +445,31 @@ i{
   section{
     padding:20px;
   }
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+section{
+  animation:fadeIn 0.6s ease;
+}
+
+h2::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:3px;
+  background:var(--primary);
+  margin-top:8px;
+}
+button:focus{
+  outline:2px solid #fff;
 }
