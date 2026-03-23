@@ -1,0 +1,402 @@
+/* =============================== */
+/* RESET */
+/* =============================== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* =============================== */
+/* BODY */
+/* =============================== */
+body{
+  font-family:'Poppins', sans-serif;
+  background:#f8fafc;
+  color:#1e293b;
+}
+
+/* =============================== */
+/* NAVBAR */
+/* =============================== */
+.navbar{
+  background:#2f5fd0;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 40px;
+}
+
+.nav-left{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.logo{
+  object-fit:contain;
+  filter: brightness(0) invert(1);
+}
+
+.logo.vision{ height:34px; }
+.logo.ai{ height:40px; }
+
+.divider{
+  width:1px;
+  height:30px;
+  background:rgba(255,255,255,0.3);
+}
+
+.nav-right{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  color:white;
+}
+
+.search{
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+}
+
+.search i{
+  color:white;
+}
+
+/* =============================== */
+/* HERO */
+/* =============================== */
+.hero{
+  position:relative;
+  background:linear-gradient(135deg, #4f7cff, #6fa3ff);
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:40px;
+  margin-bottom:10px;
+  transition:0.3s;
+  cursor:pointer;
+}
+
+.hero h1:hover{
+  color:#1f63d0;
+}
+
+/* =============================== */
+/* TOOLBAR */
+/* =============================== */
+/* نفس تصميم السايدبار */
+.toolbar{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  margin-top:25px;
+}
+.toolbar button{
+  width:50px;
+  height:50px;
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(10px);
+  border-radius:12px;
+  border:none;
+  cursor:pointer;
+  transition:0.3s;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+/* الأيقونات */
+.toolbar i{
+  font-size:18px;
+  color:white;
+}
+
+/* hover نفس السايدبار */
+.toolbar button:hover{
+  background:rgba(255,255,255,0.3);
+  transform:translateY(-3px) scale(1.05);
+}
+/* =============================== */
+/* CARDS */
+/* =============================== */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  margin-top:20px;
+}
+
+.card{
+  background:#ffffff;
+  border:1px solid #e2e8f0;
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+  transition:0.3s;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card i{
+  font-size:26px;
+  color:#4f7cff;
+  transition:0.3s;
+}
+
+.card:hover i{
+  transform:scale(1.1);
+}
+
+/* =============================== */
+/* MAIN */
+/* =============================== */
+main{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+/* =============================== */
+/* SECTION (موحد بدل تكرار) */
+/* =============================== */
+section{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  margin-bottom:40px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+h2{
+  margin-bottom:20px;
+}
+
+p{
+  line-height:1.7;
+}
+
+/* =============================== */
+/* INTRO */
+/* =============================== */
+.intro{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.intro-text,
+.intro-img{
+  flex:1;
+}
+
+.intro-img img{
+  width:100%;
+  max-width:450px;
+  height:260px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+/* =============================== */
+/* INFO GRID */
+/* =============================== */
+.info-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.info-box{
+  background:#ffffff;
+  padding:20px;
+  border-radius:10px;
+  border-left:4px solid #4f7cff;
+}
+
+.info-box h3{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* =============================== */
+/* LIST */
+/* =============================== */
+.list-section ul{
+  margin-top:10px;
+  padding-left:20px;
+}
+
+.list-section li{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:12px;
+}
+
+/* =============================== */
+/* TABLE */
+/* =============================== */
+.table-section{
+  margin-top:40px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+thead{
+  background:#5b8def;
+  color:white;
+}
+
+th, td{
+  padding:15px;
+  text-align:center;
+}
+
+tbody tr:nth-child(even){
+  background:#f8fafc;
+}
+
+a{
+  color:#2563eb;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+a:hover{
+  color:#1d4ed8;
+}
+
+/* =============================== */
+/* IMAGE */
+/* =============================== */
+.image-section{
+  padding:40px;
+  text-align:center;
+}
+
+.image-section img{
+  width:100%;
+  max-width:700px;
+  height:400px;
+  object-fit:cover;
+  border-radius:12px;
+  transition:0.4s;
+}
+
+.image-section img:hover{
+  transform:scale(1.05);
+}
+
+/* =============================== */
+/* SIDEBAR */
+/* =============================== */
+.sidebar{
+  position:fixed;
+  right:10px;
+  top:50%;
+  transform:translateY(-50%);
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.sidebar button{
+  background:#5b8def;
+  color:white;
+  border:none;
+  padding:12px;
+  border-radius:8px;
+  cursor:pointer;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sidebar button:hover{
+  background:#2f5fd0;
+}
+
+/* =============================== */
+/* FOOTER + BADGES */
+/* =============================== */
+footer{
+  background:#1e293b;
+  color:white;
+  text-align:center;
+  padding:30px 20px 10px;
+}
+
+.badges{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  padding:20px 0 40px;
+  background:#1e293b;
+  color:white;
+  font-weight:bold;
+  flex-wrap:wrap;
+  
+  border-radius:0; /* يلغي التدوير */
+}
+
+
+.badges div{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+/* =============================== */
+/* ICON FIX */
+/* =============================== */
+i{
+  display:inline-block;
+  vertical-align:middle;
+  
+}
+
+@media (max-width:768px){
+
+  .intro{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .cards{
+    grid-template-columns:1fr;
+  }
+
+  .navbar{
+    padding:10px 20px;
+  }
+
+  .hero h1{
+    font-size:26px;
+  }
+
+  .hero p{
+    font-size:14px;
+  }
+
+  section{
+    padding:20px;
+  }
+}
