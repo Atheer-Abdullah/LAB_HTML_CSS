@@ -1,0 +1,489 @@
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+body::after {
+    content: "";
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    background: #198754;
+    filter: blur(120px);
+    top: 20%;
+    left: 10%;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar .nav-link {
+    color: #FFFFFF !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #198754 !important;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background-color: #0A0A0A;
+    padding-top: 80px;
+}
+
+.hero p {
+    color: #A0A0A0;
+}
+
+.hero img {
+    border: 2px solid #2A2A2A;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+/* Titles */
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.bg-dark {
+    background-color: #111111 !important;
+}
+
+/* Education fix */
+.bg-light {
+    background-color: #F5F5F5 !important;
+    color: #000000 !important;
+}
+
+/* Cards */
+.card {
+    background-color: #1A1A1A;
+    border: 1px solid #2A2A2A;
+    color: white;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #0F5132;
+}
+
+/* Text secondary */
+.text-secondary {
+    color: #A0A0A0 !important;
+}
+
+/* Buttons */
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-light {
+    background-color: #0F5132;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #198754;
+}
+
+.btn-outline-light {
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 1px solid white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #198754;
+}
+
+a:hover {
+    color: #0F5132;
+}
+
+/* Fix spacing */
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Timeline */
+.timeline-section {
+    background-color: #0A0A0A;
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #0F5132;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    padding: 20px 40px;
+    position: relative;
+    width: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -8px;
+    background-color: #0F5132;
+    border-radius: 50%;
+    top: 30px;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -8px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    border: 1px solid #2A2A2A;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline::after {
+        left: 20px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 25px;
+    }
+
+    .timeline-item::after {
+        left: 10px;
+    }
+
+    .right {
+        left: 0;
+    }
+}
+
+.timeline-item:first-child .content {
+    border-color: #198754;
+}
+/* PROJECTS SLIDER (نسخة واحدة فقط 🔥) */
+.projects-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+.projects-slider::-webkit-scrollbar {
+    height: 6px;
+}
+
+.projects-slider::-webkit-scrollbar-thumb {
+    background: #198754; /* أخضر */
+    border-radius: 10px;
+}
+
+.project-card {
+    min-width: 280px;
+    background: #1A1A1A;
+    border-radius: 16px;
+    padding: 15px;
+    flex-shrink: 0;
+    transition: 0.3s;
+    border: 1px solid #2A2A2A;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #198754;
+    box-shadow: 0 0 15px rgba(25, 135, 84, 0.3);
+}
+
+.project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.project-card h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.project-card a {
+    color: #198754;
+    font-weight: bold;
+}
+/* social links */
+.social-icon {
+    color: #198754;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #0F5132;
+    text-shadow: 0 0 10px #198754;
+}
+
+/* About box */
+.about-box {
+    background: #111;
+    border: 1px solid #2A2A2A;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 700px;
+}
+
+/* شكل الكود */
+.code-tag {
+    color: #198754;
+    font-family: monospace;
+}
+
+/* النص */
+.about-box p {
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+/* Service card */
+.service-card {
+    background: #111;
+    border: 1px solid #2A2A2A;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #198754;
+    box-shadow: 0 0 15px rgba(25, 135, 84, 0.3);
+}
+
+/* Text */
+.service-card h4 {
+    color: white;
+}
+
+.service-card p {
+    color: #aaa;
+}
+
+/* Project card */
+.project-box {
+    background: #111;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #2A2A2A;
+    transition: 0.3s;
+}
+
+/* Hover */
+.project-box:hover {
+    transform: translateY(-10px);
+    border-color: #198754;
+    box-shadow: 0 0 20px rgba(25, 135, 84, 0.3);
+}
+
+/* Image */
+.project-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Text */
+.project-box h4 {
+    color: white;
+}
+
+.project-box p {
+    font-size: 14px;
+}
+
+/* Form */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #1A1A1A;
+    color: white;
+}
+
+/* Focus */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 1px solid #198754;
+}
+
+/* Button */
+.contact-form button {
+    border-radius: 30px;
+}
+
+/* Placeholder */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #888;
+}
+.custom-cursor {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #198754;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+
+    transform: translate(-50%, -50%);
+    
+    transition: transform 0.15s ease-out;
+    
+    box-shadow: 0 0 20px rgba(25, 135, 84, 0.6);
+    
+    z-index: 9999;
+}
+/* كل الروابط */
+a:hover {
+    text-shadow: 0 0 10px #198754;
+}
+
+/* الكروت */
+.project-box:hover,
+.service-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 25px rgba(25, 135, 84, 0.4);
+}
+
+/* الأزرار */
+.btn:hover {
+    transform: scale(1.07);
+}
+.education-box {
+    max-width: 600px;
+    margin: auto;
+    text-align: left; /* 🔥 أهم تعديل */
+}
+
+.edu-item h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edu-item p {
+    margin: 0;
+}
+
+.edu-item ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.edu-item ul li {
+    margin-bottom: 5px;
+}
+.education-card {
+    background: #1A1A1A; /* نفس ستايل موقعك */
+    border: 1px solid #2A2A2A;
+    border-radius: 15px;
+    color: white;
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    border-color: #198754;
+}
+
+.education-card h4 {
+    margin-bottom: 10px;
+}
+
+.education-card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.education-card ul li {
+    margin-bottom: 5px;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+    gap: 20px;
+}
