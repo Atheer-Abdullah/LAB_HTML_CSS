@@ -1,7 +1,7 @@
 # LAB_HTML_CSS
 
 
-# 📚 HTML & CSS Lab – 4 Mini Projects
+# HTML & CSS Lab – 4 Mini Projects
 
 This repository contains a collection of mini projects developed as part of the
 **HTML & CSS learning path** in the
@@ -11,9 +11,9 @@ All projects were implemented based on the LAB requirements and the provided lea
 
 ---
 
-## 🧩 Projects
+##  Projects
 
-### 1️⃣ Project 1 – Basic HTML Page
+### Project 1 – Basic HTML Page
 
 * Built using **pure HTML only**
 * Covers fundamental concepts:
@@ -28,7 +28,7 @@ All projects were implemented based on the LAB requirements and the provided lea
 
 ---
 
-### 2️⃣ Project 2 – Styled Page with CSS
+### Project 2 – Styled Page with CSS
 
 * Same content as Project 1 with added:
 
@@ -40,7 +40,7 @@ All projects were implemented based on the LAB requirements and the provided lea
 
 ---
 
-### 3️⃣ Project 3 – Article Page (AI Revolution)
+### Project 3 – Article Page (AI Revolution)
 
 * Advanced webpage using:
 
@@ -61,7 +61,7 @@ All projects were implemented based on the LAB requirements and the provided lea
 
 ---
 
-### 4️⃣ Project 4 – CV Website
+### Project 4 – CV Website
 
 * Complete **CV website**
 * Includes:
@@ -73,14 +73,14 @@ All projects were implemented based on the LAB requirements and the provided lea
   * Contact form
   * GitHub projects slider
 
-⚠️ Note:
+# Note:
 The design may appear similar to a **portfolio**,
 however, the content is structured as a **CV**
 and optimized for ATS (Applicant Tracking Systems).
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * HTML5
 * CSS3
@@ -89,7 +89,7 @@ and optimized for ATS (Applicant Tracking Systems).
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 * Apply all HTML & CSS concepts in practice
 * Build real-world web pages
@@ -98,7 +98,7 @@ and optimized for ATS (Applicant Tracking Systems).
 
 ---
 
-## 📌 Notes
+##  Notes
 
 All projects were developed based on:
 
@@ -108,12 +108,12 @@ All projects were developed based on:
 
 ---
 
-## 👩‍💻 Developer
+##  Developer
 
 Atheer Abdullah Al-Harthi
 
 
-# 📚 مشروع HTML & CSS – المعسكر (4 Mini Projects)
+#  مشروع HTML & CSS – المعسكر (4 Mini Projects)
 
 هذا المستودع يحتوي على مجموعة من المشاريع العملية التي قمت بتطويرها خلال مسار تعلم **HTML & CSS** ضمن معسكر
 **Web Development with Python – أكاديمية طويق**.
@@ -122,9 +122,9 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-## 🧩 المشاريع
+##  المشاريع
 
-### 1️⃣ المشروع الأول – صفحة HTML أساسية
+### 1️ المشروع الأول – صفحة HTML أساسية
 
 * صفحة ويب مبنية باستخدام **HTML فقط**
 * تطبيق المفاهيم الأساسية:
@@ -139,7 +139,7 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-### 2️⃣ المشروع الثاني – صفحة محسّنة باستخدام CSS
+### 2️ المشروع الثاني – صفحة محسّنة باستخدام CSS
 
 * نفس محتوى المشروع الأول لكن مع إضافة:
 
@@ -152,7 +152,7 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-### 3️⃣ المشروع الثالث – صفحة مقال (AI Revolution)
+### 3️ المشروع الثالث – صفحة مقال (AI Revolution)
 
 * صفحة مقال متكاملة باستخدام:
 
@@ -173,7 +173,7 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-### 4️⃣ المشروع الرابع – CV Website
+### 4️ المشروع الرابع – CV Website
 
 * موقع سيرة ذاتية (CV) كامل
 * يحتوي على:
@@ -185,14 +185,14 @@ Atheer Abdullah Al-Harthi
   * Contact Form
   * GitHub Projects Slider
 
-⚠️ ملاحظة:
+ ملاحظة:
 قد يبدو التصميم قريب من **Portfolio**
 لكن المحتوى فعليًا مكتوب بصيغة **CV (سيرة ذاتية)**
 ومرتب بطريقة مناسبة لأنظمة التوظيف (ATS).
 
 ---
 
-## 🛠️ التقنيات المستخدمة
+## التقنيات المستخدمة
 
 * HTML5
 * CSS3
@@ -201,7 +201,7 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-## 🎯 الهدف من المشاريع
+## الهدف من المشاريع
 
 * تطبيق جميع مفاهيم HTML & CSS
 * بناء صفحات من الصفر
@@ -210,7 +210,7 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-## 📌 ملاحظة
+## ملاحظة
 
 تم تنفيذ جميع المشاريع بناءً على:
 
@@ -220,6 +220,6 @@ Atheer Abdullah Al-Harthi
 
 ---
 
-## 👩‍💻 المطورة
+## المطورة
 
 Atheer Abdullah Al-Harthi
