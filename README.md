@@ -9,7 +9,7 @@ This repository contains a collection of mini projects developed as part of the
 
 All projects were implemented based on the LAB requirements and the provided learning resources.
 
----
+
 
 ##  Projects
 
@@ -26,7 +26,7 @@ All projects were implemented based on the LAB requirements and the provided lea
   * Forms
 * Content represents my learning journey at Tuwaiq Academy
 
----
+
 
 ### Project 2 – Styled Page with CSS
 
@@ -38,7 +38,7 @@ All projects were implemented based on the LAB requirements and the provided lea
   * Organized layout using sections and containers
 * Inspired by Tuwaiq Academy color theme
 
----
+
 
 ### Project 3 – Article Page (AI Revolution)
 
@@ -59,7 +59,7 @@ All projects were implemented based on the LAB requirements and the provided lea
   * CSS animations
   * UI components
 
----
+
 
 ### Project 4 – CV Website
 
@@ -78,7 +78,7 @@ The design may appear similar to a **portfolio**,
 however, the content is structured as a **CV**
 and optimized for ATS (Applicant Tracking Systems).
 
----
+
 
 ##  Technologies Used
 
@@ -87,7 +87,7 @@ and optimized for ATS (Applicant Tracking Systems).
 * Bootstrap
 * JavaScript (for interactivity)
 
----
+
 
 ##  Project Goals
 
@@ -96,7 +96,7 @@ and optimized for ATS (Applicant Tracking Systems).
 * Improve UI/UX design skills
 * Understand website structure and layout
 
----
+
 
 ##  Notes
 
@@ -106,7 +106,7 @@ All projects were developed based on:
 * Provided learning resources (MDN, W3Schools, etc.)
 * Hands-on practice and experimentation
 
----
+
 
 ##  Developer
 
@@ -120,7 +120,7 @@ Atheer Abdullah Al-Harthi
 
 تم تنفيذ جميع المشاريع بناءً على متطلبات اللاب (LAB_HTML_CSS) والالتزام بجميع المفاهيم والمصادر المذكورة فيه.
 
----
+
 
 ##  المشاريع
 
@@ -137,7 +137,7 @@ Atheer Abdullah Al-Harthi
   * النماذج (Forms)
 * المحتوى يوضح رحلتي التعليمية في أكاديمية طويق
 
----
+
 
 ### 2️ المشروع الثاني – صفحة محسّنة باستخدام CSS
 
@@ -150,7 +150,7 @@ Atheer Abdullah Al-Harthi
   * تنظيم المحتوى باستخدام Sections و Divs
 * الهدف: تحويل صفحة HTML بسيطة إلى واجهة احترافية
 
----
+
 
 ### 3️ المشروع الثالث – صفحة مقال (AI Revolution)
 
@@ -171,7 +171,7 @@ Atheer Abdullah Al-Harthi
   * Animations
   * UI Components
 
----
+
 
 ### 4️ المشروع الرابع – CV Website
 
@@ -190,7 +190,7 @@ Atheer Abdullah Al-Harthi
 لكن المحتوى فعليًا مكتوب بصيغة **CV (سيرة ذاتية)**
 ومرتب بطريقة مناسبة لأنظمة التوظيف (ATS).
 
----
+
 
 ## التقنيات المستخدمة
 
@@ -199,7 +199,7 @@ Atheer Abdullah Al-Harthi
 * Bootstrap
 * JavaScript (لإضافات تفاعلية)
 
----
+
 
 ## الهدف من المشاريع
 
@@ -208,7 +208,7 @@ Atheer Abdullah Al-Harthi
 * تحسين مهارات التصميم (UI/UX)
 * فهم هيكلة المواقع الحقيقية
 
----
+
 
 ## ملاحظة
 
@@ -218,7 +218,7 @@ Atheer Abdullah Al-Harthi
 * المصادر المذكورة (MDN, W3Schools, وغيرها)
 * تطبيق عملي لكل مفهوم تم تعلمه
 
----
+
 
 ## المطورة
 
