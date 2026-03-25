@@ -227,7 +227,7 @@ a:hover {
 .timeline-item:first-child .content {
     border-color: #198754;
 }
-/* PROJECTS SLIDER (نسخة واحدة فقط 🔥) */
+/* PROJECTS SLIDER */
 .projects-slider {
     display: flex;
     gap: 20px;
@@ -242,7 +242,7 @@ a:hover {
 }
 
 .projects-slider::-webkit-scrollbar-thumb {
-    background: #198754; /* أخضر */
+    background: #198754; 
     border-radius: 10px;
 }
 
@@ -437,7 +437,7 @@ a:hover {
 .education-box {
     max-width: 600px;
     margin: auto;
-    text-align: left; /* 🔥 أهم تعديل */
+    text-align: left; 
 }
 
 .edu-item h4 {
@@ -458,7 +458,7 @@ a:hover {
     margin-bottom: 5px;
 }
 .education-card {
-    background: #1A1A1A; /* نفس ستايل موقعك */
+    background: #1A1A1A; 
     border: 1px solid #2A2A2A;
     border-radius: 15px;
     color: white;

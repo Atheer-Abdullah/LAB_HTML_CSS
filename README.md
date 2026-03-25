@@ -1,138 +1,225 @@
 # LAB_HTML_CSS
 
 
-# Learn the about HTML/CSS and apply your learning on 4 mini projects!
-- Eatch mini project is in a seperate folder. 
-- Your final result should have at least 4 web mini projects (you can create more while learning!)
+# 📚 HTML & CSS Lab – 4 Mini Projects
 
-## Learning plan for HTML/CSS with resources. You'll find more resources submitted to discord.
+This repository contains a collection of mini projects developed as part of the
+**HTML & CSS learning path** in the
+**Web Development with Python Bootcamp – Tuwaiq Academy**.
 
-### 1: Introduction to HTML
-**Goals:** Understand the basic structure of a web page and essential HTML elements.
+All projects were implemented based on the LAB requirements and the provided learning resources.
 
-1. **Basic Structure**
-   - Learn about HTML tags and the structure of an HTML document.
-   - Create your first HTML file with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags.
-   - Resources: MDN Web Docs - [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+---
 
-2. **Text and Formatting**
-   - Learn about headings (`<h1>` to `<h6>`), paragraphs (`<p>`), bold (`<b>`), and italic (`<i>`).
-   - Practice creating and formatting text.
-   - Resources: W3Schools - [HTML Elements](https://www.w3schools.com/html/html_elements.asp)
+## 🧩 Projects
 
-3. **Links and Images**
-   - Learn how to create links (`<a>`) and add images (`<img>`).
-   - Understand attributes like `href` and `src`.
-   - Resources: W3Schools - [HTML Links](https://www.w3schools.com/html/html_links.asp), [HTML Images](https://www.w3schools.com/html/html_images.asp)
+### 1️⃣ Project 1 – Basic HTML Page
 
-4. **Lists and Tables**
-   - Learn about ordered (`<ol>`) and unordered (`<ul>`) lists, and list items (`<li>`).
-   - Introduction to tables (`<table>`, `<tr>`, `<td>`, `<th>`).
-   - Resources: MDN Web Docs - [HTML Lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), [HTML Tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+* Built using **pure HTML only**
+* Covers fundamental concepts:
 
-5. **Forms and Input**
-   - Learn about forms (`<form>`) and input elements (`<input>`, `<textarea>`, `<button>`, `<select>`, etc.).
-   - Resources: MDN Web Docs - [HTML Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+  * HTML structure
+  * Headings & paragraphs
+  * Links & images
+  * Lists
+  * Tables
+  * Forms
+* Content represents my learning journey at Tuwaiq Academy
 
-6. **Review and Practice**
-   - Review all the topics covered so far.
-   - Build a simple web page incorporating text, images, links, lists, tables, and a form.
-   - Resources: Any HTML tutorial platform for practice (e.g., Codecademy, FreeCodeCamp).
+---
 
-7. **Mini Project**
-   - Create a webpage of your choosing. examples:a  list of hobbies, favorite links,a contact form, about a football team you support, etc.
-   - Resources: Personal creativity and practice.
-   -    - Path: `html/introduction/`
+### 2️⃣ Project 2 – Styled Page with CSS
 
-### 2: Introduction to CSS
-**Goals:** Understand the basics of CSS and how to style HTML elements.
+* Same content as Project 1 with added:
 
-1. **Basic Syntax and Selectors**
-   - Learn about the structure of CSS rules (selectors, properties, and values).
-   - Understand different types of selectors: element, class, ID, and universal.
-   - Resources: MDN Web Docs - [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  * Full styling using **CSS**
+  * Fixed navigation bar
+  * Improved UI design
+  * Organized layout using sections and containers
+* Inspired by Tuwaiq Academy color theme
 
-2. **Colors and Backgrounds**
-   - Learn how to apply colors using names, HEX, RGB, and HSL values.
-   - Learn about background properties: `background-color`, `background-image`, `background-repeat`, etc.
-   - Resources: W3Schools - [CSS Colors](https://www.w3schools.com/css/css_colors.asp), [CSS Backgrounds](https://www.w3schools.com/css/css_background.asp)
+---
 
-3. **Text Styling**
-   - Learn about font properties: `font-family`, `font-size`, `font-weight`, `font-style`, and `text-align`.
-   - Understand how to use Google Fonts.
-   - Resources: Google Fonts, MDN Web Docs - [CSS Fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+### 3️⃣ Project 3 – Article Page (AI Revolution)
 
-4. **Unit of Measurements & Positions**
-   - Learn about Unit of Measurements & Positions
-   - Resources:  [Unit of Measurements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units). [CSS Posiition](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
-5. **Box Model**
-   - Understand the box model: `margin`, `border`, `padding`, and `content`.
-   - Learn how to use `width`, `height`, `box-sizing`.
-   - Resources: MDN Web Docs - [Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+* Advanced webpage using:
 
-6. **Layout Basics**
-   - Introduction to display properties: `block`, `inline`, `inline-block`, `none`.
-   - Learn about CSS positioning: `static`, `relative`, `absolute`, `fixed`.
-   - Resources: W3Schools - [CSS Layout](https://www.w3schools.com/css/css_positioning.asp)
+  * Semantic HTML
+  * Responsive design
+  * Structured layout (Grid & Sections)
+* Includes:
 
-7. **Flexbox Basics**
-   - Introduction to Flexbox layout model.
-   - Learn properties like `display: flex`, `justify-content`, `align-items`, and `flex-direction`.
-   - Resources: CSS Tricks - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  * Hero section
+  * Cards layout
+  * Table
+  * Interactive sidebar
+* Demonstrates:
 
-8. **Mini Project**
-   - Create a styled version of the personal webpage from `1` section.
-   - Use various CSS properties learned throughout the week.
-   - Resources: Personal creativity and practice.
-   - Path: `css/introduction/`
+  * Layout techniques
+  * CSS animations
+  * UI components
 
-### 3: Advanced HTML & CSS Concepts
-**Goals:** Deepen understanding of HTML and CSS with advanced concepts and techniques.
+---
 
-1. **1: Semantic HTML**
-   - Learn about semantic HTML tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`.
-   - Resources: MDN Web Docs - [HTML5 Semantic Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+### 4️⃣ Project 4 – CV Website
 
-2. **2: Responsive Design**
-   - Learn about media queries and responsive design principles.
-   - Understand how to create a responsive layout that adapts to different screen sizes.
-   - Resources: MDN Web Docs - [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+* Complete **CV website**
+* Includes:
 
-3. **Day 3: CSS Transitions and Animations**
-   - Learn how to add transitions (`transition-property`, `transition-duration`) and animations (`@keyframes`, `animation-name`).
-   - Resources: MDN Web Docs - [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+  * Summary
+  * Experience
+  * Education
+  * Projects
+  * Contact form
+  * GitHub projects slider
 
-4. **4: Advanced Selectors and Pseudo-classes**
-   - Learn about attribute selectors, pseudo-classes (`:hover`, `:nth-child`), and pseudo-elements (`::before`, `::after`).
-   - Resources: MDN Web Docs - [Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors), [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes), [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+⚠️ Note:
+The design may appear similar to a **portfolio**,
+however, the content is structured as a **CV**
+and optimized for ATS (Applicant Tracking Systems).
 
-5. **5: CSS Frameworks**
-   - Introduction to popular CSS frameworks like Bootstrap and Tailwind CSS.
-   - Learn how to incorporate a framework into your project.
-   - Resources: Bootstrap - [Introduction](https://getbootstrap.com/docs/5.3/getting-started/introduction/), Tailwind CSS - [Getting Started](https://tailwindcss.com/docs)
+---
 
-6. **6: Accessibility and Best Practices**
-   - Learn about web accessibility and how to make your site accessible.
-   - Understand best practices for writing clean and maintainable CSS.
-   - Resources: WebAIM - [Introduction to Web Accessibility](https://webaim.org/intro/), MDN Web Docs - [CSS Best Practices](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
+## 🛠️ Technologies Used
 
-7. **Mini Project**
-   - Create an article webpage from about "AI Revolution".
-   - Use HTML/CSS properties learned throughout the week. With images and videos if needed.
-   - Resources: Personal creativity and practice.
-   - Path: `article/ai/`
-  
-### Additional Tips
-- **Practice Regularly:** Consistency is key to mastering HTML and CSS.
-- **Build Projects:** Apply what you learn by building small projects.
-- **Join Communities:** Engage with online communities (e.g., Stack Overflow, Reddit, Twitter) for support and inspiration.
-- **Stay Updated:** Web technologies evolve; keep learning and exploring new techniques.
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript (for interactivity)
 
-### 4 Mini CV PROJECT:
-#### Mini Project
-- Apply all you've learned on your webpage.
-- Create a CV page about yourselft.
-- Path: `careers/cv/`
-  
-**Remeber:** a CV is:
-  ``` A CV – or Curriculum Vitae – is an itemized list of a person's entire education, publications, accomplishments, notable projects, awards, honors, achievements, and professional experiences. In one document you're trying to sum up your whole career in detail, focusing mainly on the academic side. ```
+---
+
+## 🎯 Project Goals
+
+* Apply all HTML & CSS concepts in practice
+* Build real-world web pages
+* Improve UI/UX design skills
+* Understand website structure and layout
+
+---
+
+## 📌 Notes
+
+All projects were developed based on:
+
+* Lab requirements
+* Provided learning resources (MDN, W3Schools, etc.)
+* Hands-on practice and experimentation
+
+---
+
+## 👩‍💻 Developer
+
+Atheer Abdullah Al-Harthi
+
+
+# 📚 مشروع HTML & CSS – المعسكر (4 Mini Projects)
+
+هذا المستودع يحتوي على مجموعة من المشاريع العملية التي قمت بتطويرها خلال مسار تعلم **HTML & CSS** ضمن معسكر
+**Web Development with Python – أكاديمية طويق**.
+
+تم تنفيذ جميع المشاريع بناءً على متطلبات اللاب (LAB_HTML_CSS) والالتزام بجميع المفاهيم والمصادر المذكورة فيه.
+
+---
+
+## 🧩 المشاريع
+
+### 1️⃣ المشروع الأول – صفحة HTML أساسية
+
+* صفحة ويب مبنية باستخدام **HTML فقط**
+* تطبيق المفاهيم الأساسية:
+
+  * هيكلة الصفحة (HTML Structure)
+  * العناوين والفقرات
+  * الروابط والصور
+  * القوائم (Lists)
+  * الجداول (Tables)
+  * النماذج (Forms)
+* المحتوى يوضح رحلتي التعليمية في أكاديمية طويق
+
+---
+
+### 2️⃣ المشروع الثاني – صفحة محسّنة باستخدام CSS
+
+* نفس محتوى المشروع الأول لكن مع إضافة:
+
+  * تصميم كامل باستخدام **CSS**
+  * Navbar ثابت
+  * تنسيق الألوان (مستوحى من أكاديمية طويق)
+  * تحسين تجربة المستخدم (UI)
+  * تنظيم المحتوى باستخدام Sections و Divs
+* الهدف: تحويل صفحة HTML بسيطة إلى واجهة احترافية
+
+---
+
+### 3️⃣ المشروع الثالث – صفحة مقال (AI Revolution)
+
+* صفحة مقال متكاملة باستخدام:
+
+  * Semantic HTML
+  * تصميم متجاوب (Responsive Design)
+  * Layout متقدم (Grid + Sections)
+* يتضمن:
+
+  * Hero Section
+  * Cards
+  * Table
+  * Sidebar تفاعلي
+* تم تطبيق مفاهيم:
+
+  * CSS Layout
+  * Animations
+  * UI Components
+
+---
+
+### 4️⃣ المشروع الرابع – CV Website
+
+* موقع سيرة ذاتية (CV) كامل
+* يحتوي على:
+
+  * Summary
+  * Experience
+  * Education
+  * Projects
+  * Contact Form
+  * GitHub Projects Slider
+
+⚠️ ملاحظة:
+قد يبدو التصميم قريب من **Portfolio**
+لكن المحتوى فعليًا مكتوب بصيغة **CV (سيرة ذاتية)**
+ومرتب بطريقة مناسبة لأنظمة التوظيف (ATS).
+
+---
+
+## 🛠️ التقنيات المستخدمة
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript (لإضافات تفاعلية)
+
+---
+
+## 🎯 الهدف من المشاريع
+
+* تطبيق جميع مفاهيم HTML & CSS
+* بناء صفحات من الصفر
+* تحسين مهارات التصميم (UI/UX)
+* فهم هيكلة المواقع الحقيقية
+
+---
+
+## 📌 ملاحظة
+
+تم تنفيذ جميع المشاريع بناءً على:
+
+* متطلبات اللاب
+* المصادر المذكورة (MDN, W3Schools, وغيرها)
+* تطبيق عملي لكل مفهوم تم تعلمه
+
+---
+
+## 👩‍💻 المطورة
+
+Atheer Abdullah Al-Harthi

@@ -1,5 +1,5 @@
 // ===============================
-// 🔍 SEARCH CLICK
+//  SEARCH CLICK
 // ===============================
 const search = document.querySelector(".search");
 if (search) {
@@ -9,7 +9,7 @@ if (search) {
 }
 
 // ===============================
-// 🌐 LANGUAGE TOGGLE
+//  LANGUAGE TOGGLE
 // ===============================
 const langBtn = document.querySelector(".lang-toggle");
 
@@ -26,7 +26,7 @@ if (langBtn) {
 }
 
 // ===============================
-// 🔊 AUDIO BUTTON
+//  AUDIO BUTTON
 // ===============================
 const audioBtn = document.querySelector('[title="Play audio"]');
 
@@ -37,7 +37,7 @@ if (audioBtn) {
 }
 
 // ===============================
-// ⭐ FAVORITE BUTTON
+//  FAVORITE BUTTON
 // ===============================
 const starBtn = document.querySelector(".fa-star");
 
@@ -54,7 +54,7 @@ if (starBtn && starBtn.parentElement) {
 }
 
 // ===============================
-// 🔄 REFRESH BUTTON
+//  REFRESH BUTTON
 // ===============================
 const refreshBtn = document.querySelector(".fa-sync");
 
@@ -65,7 +65,7 @@ if (refreshBtn && refreshBtn.parentElement) {
 }
 
 // ===============================
-// 📄 FILE BUTTON
+//  FILE BUTTON
 // ===============================
 const fileBtn = document.querySelector(".fa-file-alt");
 
@@ -76,7 +76,7 @@ if (fileBtn && fileBtn.parentElement) {
 }
 
 // ===============================
-// ➕ PLUS BUTTON
+//  PLUS BUTTON
 // ===============================
 const plusBtn = document.querySelector(".fa-plus");
 
@@ -87,7 +87,7 @@ if (plusBtn && plusBtn.parentElement) {
 }
 
 // ===============================
-// 📌 CARDS NAVIGATION
+//  CARDS NAVIGATION
 // ===============================
 const cards = document.querySelectorAll(".cards .card");
 
@@ -106,7 +106,7 @@ if (cards.length > 0) {
 }
 
 // ===============================
-// 🎛️ SIDEBAR BUTTONS
+//  SIDEBAR BUTTONS
 // ===============================
 const sidebarBtns = document.querySelectorAll(".sidebar button");
 
@@ -121,7 +121,7 @@ if (sidebarBtns.length > 0) {
 }
 
 // ===============================
-// 📩 FORM (Formspree FIX)
+//  FORM (Formspree FIX)
 // ===============================
 const form = document.getElementById("contact-form");
 const status = document.getElementById("form-status");
@@ -139,16 +139,16 @@ if (form) {
     });
 
     if (response.ok) {
-      status.innerHTML = "✅ Message sent successfully!";
+      status.innerHTML = " Message sent successfully!";
       form.reset();
     } else {
-      status.innerHTML = "❌ Something went wrong.";
+      status.innerHTML = " Something went wrong.";
     }
   });
 }
 
 // ===============================
-// 💻 GITHUB SLIDER (المهم 🔥)
+//  GITHUB SLIDER 
 // ===============================
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
           container.appendChild(card);
         });
 
-        // 🔥 مهم
+        
         container.innerHTML += container.innerHTML;
 
         startSlider();

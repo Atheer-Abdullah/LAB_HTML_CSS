@@ -1,12 +1,12 @@
 // ===============================
-// 🔍 SEARCH CLICK
+//  SEARCH CLICK
 // ===============================
 document.querySelector(".search").addEventListener("click", () => {
   alert("Search feature coming soon");
 });
 
 // ===============================
-// 🌐 LANGUAGE TOGGLE
+//  LANGUAGE TOGGLE
 // ===============================
 const langBtn = document.querySelector(".lang-toggle");
 
@@ -21,7 +21,7 @@ langBtn.addEventListener("click", () => {
 });
 
 // ===============================
-// 🔊 AUDIO BUTTON
+//  AUDIO BUTTON
 // ===============================
 const audioBtn = document.querySelector('[title="Play audio"]');
 
@@ -30,7 +30,7 @@ audioBtn.addEventListener("click", () => {
 });
 
 // ===============================
-// ⭐ FAVORITE BUTTON
+//  FAVORITE BUTTON
 // ===============================
 const starBtn = document.querySelector(".fa-star");
 
@@ -38,14 +38,14 @@ starBtn.parentElement.addEventListener("click", () => {
   starBtn.classList.toggle("active");
 
   if (starBtn.classList.contains("active")) {
-    starBtn.style.color = "#facc15"; // ذهبي
+    starBtn.style.color = "#facc15"; 
   } else {
     starBtn.style.color = "white";
   }
 });
 
 // ===============================
-// 🔄 REFRESH BUTTON
+//  REFRESH BUTTON
 // ===============================
 const refreshBtn = document.querySelector(".fa-sync");
 
@@ -54,7 +54,7 @@ refreshBtn.parentElement.addEventListener("click", () => {
 });
 
 // ===============================
-// 📄 FILE BUTTON
+//  FILE BUTTON
 // ===============================
 const fileBtn = document.querySelector(".fa-file-alt");
 
@@ -63,7 +63,7 @@ fileBtn.parentElement.addEventListener("click", () => {
 });
 
 // ===============================
-// ➕ PLUS BUTTON
+//  PLUS BUTTON
 // ===============================
 const plusBtn = document.querySelector(".fa-plus");
 
@@ -72,7 +72,7 @@ plusBtn.parentElement.addEventListener("click", () => {
 });
 
 // ===============================
-// 📌 CARDS NAVIGATION
+//  CARDS NAVIGATION
 // ===============================
 const cards = document.querySelectorAll(".cards .card");
 
@@ -89,7 +89,7 @@ cards.forEach((card, index) => {
 });
 
 // ===============================
-// 🎛️ SIDEBAR BUTTONS
+//  SIDEBAR BUTTONS
 // ===============================
 const sidebarBtns = document.querySelectorAll(".sidebar button");
 
