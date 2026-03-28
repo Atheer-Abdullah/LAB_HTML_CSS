@@ -80,12 +80,13 @@ and optimized for ATS (Applicant Tracking Systems).
 
 
 
-##  Technologies Used
-
-* HTML5
-* CSS3
-* Bootstrap
-* JavaScript (for interactivity)
+##  Technologies & Libraries Used:
+- HTML5
+- CSS3
+- Bootstrap (CSS Framework)
+- Google Fonts
+- AOS Animation Library
+- JavaScript
 
 
 
@@ -194,10 +195,12 @@ Atheer Abdullah Al-Harthi
 
 ## التقنيات المستخدمة
 
-* HTML5
-* CSS3
-* Bootstrap
-* JavaScript (لإضافات تفاعلية)
+- HTML5
+- CSS3
+- Bootstrap (CSS Framework)
+- Google Fonts
+- AOS Animation Library
+- JavaScript
 
 
 
