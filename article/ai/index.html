@@ -7,7 +7,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -35,11 +35,18 @@
   </div>
 
 </nav>
+
 <!-- HERO -->
 <header class="hero">
-    <h1>The AI Revolution</h1>
-  <p>Exploring the impact of Artificial Intelligence on our world</p>
+<h1>The AI Revolution</h1>
 
+<p class="subtitle">
+  Exploring the impact of Artificial Intelligence on our world
+</p>
+<p class="badge">AI • ARTICLE</p>
+  <p class="article-meta">
+  By Atheer • Feb 2026 • 5 min read
+</p>
 <div class="toolbar">
 <button><i class="fas fa-file-alt"></i></button>
 <button><i class="fas fa-sync"></i></button>
@@ -120,17 +127,37 @@
 
 
   <!--  APPLICATIONS -->
-<section class="list-section">
+<section class="apps-section">
   <h2>Applications of AI</h2>
 
-  <ul>
-    <li><strong><i class="fas fa-heartbeat"></i> Healthcare:</strong> Diagnosing diseases</li>
-    <li><strong><i class="fas fa-graduation-cap"></i> Education:</strong> Personalized learning</li>
-    <li><strong><i class="fas fa-chart-line"></i> Business:</strong> Data analysis</li>
-    <li><strong><i class="fas fa-car"></i> Transportation:</strong> Self-driving</li>
-    </ul>
-</section>
+  <div class="apps-grid">
 
+    <div class="app-card">
+      <img src="images/healthcare.jpg" alt="AI in Healthcare">
+      <h3>Healthcare</h3>
+      <p>Diagnosing diseases</p>
+    </div>
+
+    <div class="app-card">
+      <img src="images/education.jpg" alt="AI in Education">
+      <h3>Education</h3>
+      <p>Personalized learning</p>
+    </div>
+
+    <div class="app-card">
+      <img src="images/business.jpg" alt="AI in Business">
+      <h3>Business</h3>
+      <p>Data analysis</p>
+    </div>
+
+    <div class="app-card">
+      <img src="images/transport.jpg" alt="AI in Transportation">
+      <h3>Transportation</h3>
+      <p>Self-driving</p>
+    </div>
+
+  </div>
+</section>
 
   <!--  BENEFITS -->
   <section>
@@ -169,47 +196,46 @@
 </section>
 
 
-  <!--  FUTURE -->
-  <section>
+  <section class="combined-card">
+
+  <div class="card-block">
     <h2>Future of AI</h2>
     <p>
       AI will continue to grow and become more integrated into our daily lives,
       helping humans achieve more with smarter systems.
     </p>
-  </section>
+  </div>
 
-<section>
-  <h2>AI in Saudi Arabia</h2>
+  <div class="card-block">
+    <h2>AI in Saudi Arabia</h2>
+    <p>
+      Saudi Arabia is one of the leading countries investing in Artificial Intelligence
+      as part of its Vision 2030. The Kingdom aims to become a global hub for data
+      and AI technologies.
+    </p>
 
-  <p>
-    Saudi Arabia is one of the leading countries investing in Artificial Intelligence
-    as part of its Vision 2030. The Kingdom aims to become a global hub for data
-    and AI technologies.
-  </p>
+    <ul>
+      <li><strong>Vision 2030:</strong> Focuses on digital transformation and innovation</li>
+      <li><strong>National Strategy for Data & AI:</strong> Positions Saudi Arabia among top AI economies</li>
+      <li><strong>Smart Government:</strong> Enhancing services using AI technologies</li>
+    </ul>
+  </div>
 
-  <ul>
-    <li><strong>Vision 2030:</strong> Focuses on digital transformation and innovation</li>
-    <li><strong>National Strategy for Data & AI:</strong> Positions Saudi Arabia among top AI economies</li>
-    <li><strong>Smart Government:</strong> Enhancing services using AI technologies</li>
-  </ul>
+  <div class="card-block">
+    <h2>Year of Artificial Intelligence</h2>
+    <p>
+      Saudi Arabia has emphasized the importance of Artificial Intelligence by
+      promoting awareness, education, and innovation in AI technologies.
+    </p>
+
+    <ul>
+      <li>Encouraging students to learn AI</li>
+      <li>Supporting innovation and startups</li>
+      <li>Developing digital skills for the future</li>
+    </ul>
+  </div>
+
 </section>
-
-<section>
-  <h2>Year of Artificial Intelligence</h2>
-
-  <p>
-    Saudi Arabia has emphasized the importance of Artificial Intelligence by
-    promoting awareness, education, and innovation in AI technologies. This
-    initiative supports building a knowledge-based economy and preparing future talents.
-  </p>
-
-  <ul>
-    <li>Encouraging students to learn AI</li>
-    <li>Supporting innovation and startups</li>
-    <li>Developing digital skills for the future</li>
-  </ul>
-</section>
-
   <!--  TABLE  -->
   <section class="table-section">
 
@@ -262,12 +288,15 @@
 </main>
 
 
+<div class="author-box">
+  <h3>Written by Atheer</h3>
+  <p>Computer Science graduate passionate about AI and web development.</p>
+</div>
 
 <!-- FOOTER -->
 <footer>
   <p>© 2026 Atheer</p>
 </footer>
-
 
 <div class="sidebar">
 <button><i class="fas fa-headphones"></i></button>
