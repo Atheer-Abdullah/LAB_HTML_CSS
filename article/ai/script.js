@@ -72,23 +72,6 @@ plusBtn.parentElement.addEventListener("click", () => {
 });
 
 // ===============================
-//  CARDS NAVIGATION
-// ===============================
-const cards = document.querySelectorAll(".cards .card");
-
-cards.forEach((card, index) => {
-  card.addEventListener("click", () => {
-    const sections = document.querySelectorAll("main section");
-
-    if (sections[index]) {
-      sections[index].scrollIntoView({
-        behavior: "smooth"
-      });
-    }
-  });
-});
-
-// ===============================
 //  SIDEBAR BUTTONS
 // ===============================
 const sidebarBtns = document.querySelectorAll(".sidebar button");

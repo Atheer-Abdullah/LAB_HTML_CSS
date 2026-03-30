@@ -1,28 +1,189 @@
-<div class="table">
-  <h2>My Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developer Dashboard</title>
 
-  <div class="row">
-    <span>CV Website (This Site)</span>
-    <span class="tech">HTML / CSS</span>
-    <span class="status completed">Completed</span>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="logo">
+      <i class="fa-solid fa-rocket"></i> DevBoard
+    </div>
+
+    <ul class="menu">
+      <li class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
+      <li><i class="fa-solid fa-folder"></i> Projects</li>
+      <li><i class="fa-solid fa-cloud-arrow-up"></i> Deployments</li>
+      <li><i class="fa-solid fa-link"></i> Systems</li>
+      <li><i class="fa-solid fa-file-lines"></i> Logs</li>
+      <li><i class="fa-solid fa-chart-line"></i> Analytics</li>
+    </ul>
+
+    <p class="section-title">INSIGHT</p>
+
+    <ul class="menu">
+      <li><i class="fa-solid fa-signal"></i> Monitoring</li>
+      <li><i class="fa-solid fa-file"></i> Reports</li>
+    </ul>
+
+    <div class="bottom">
+      <ul class="menu">
+        <li><i class="fa-solid fa-gear"></i> Settings</li>
+        <li><i class="fa-solid fa-circle-question"></i> Help</li>
+      </ul>
+
+      <div class="profile">
+        <div class="avatar"></div>
+        <div>
+          <p class="name">Atheer</p>
+          <span>Developer</span>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="row">
-    <span>CLI Application</span>
-    <span class="tech">Python</span>
-    <span class="status completed">Completed</span>
-  </div>
+  <!-- MAIN -->
+  <div class="main">
+    <div class="container">
 
-  <div class="row">
-    <span>Django Web App</span>
-    <span class="tech">Django</span>
-    <span class="status progress">In Progress</span>
-  </div>
+      <!-- TOP BAR -->
+      <div class="topbar">
+        <input class="search" placeholder="Search project, system, logs...">
+        <button class="btn">
+          <i class="fa-solid fa-plus"></i> Add Project
+        </button>
+      </div>
 
-  <div class="row">
-    <span>Portfolio Upgrade</span>
-    <span class="tech">JS / UI</span>
-    <span class="status progress">In Progress</span>
+      <!-- STATS -->
+      <div class="stats">
+        <div class="card">
+          <h3>Projects</h3>
+          <p>12 Active Projects</p>
+        </div>
+        <div class="card">
+          <h3>Deployments</h3>
+          <p>5 Running</p>
+        </div>
+        <div class="card">
+          <h3>Errors</h3>
+          <p>2 Needs Fix</p>
+        </div>
+        <div class="card">
+          <h3>Systems</h3>
+          <p>8 Connected</p>
+        </div>
+      </div>
+
+      <!-- CHARTS -->
+      <div class="charts">
+
+        <div class="chart-card">
+          <h3>Projects Activity</h3>
+          <div class="chart-box">
+            <canvas id="lineChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <h3>System Status</h3>
+          <div class="chart-box">
+            <canvas id="barChart"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="projects">
+        <h2>Active Projects</h2>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p class="status green">
+              <i class="fa-solid fa-circle"></i> Running
+            </p>
+            <button>View Project</button>
+          </div>
+
+          <div class="project-card">
+            <h3>E-commerce API</h3>
+            <p class="status blue">
+              <i class="fa-solid fa-circle"></i> Deploying
+            </p>
+            <button>View Project</button>
+          </div>
+
+          <div class="project-card">
+            <h3>Dashboard App</h3>
+            <p class="status red">
+              <i class="fa-solid fa-circle"></i> Error
+            </p>
+            <button>View Project</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABLE -->
+      <div class="table">
+        <h2>Connected Systems</h2>
+
+        <table>
+          <tr>
+            <th>System</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th>Status</th>
+          </tr>
+
+          <tr>
+            <td>GitHub</td>
+            <td>Code hosting</td>
+            <td>Dev Tool</td>
+            <td class="green">Connected</td>
+          </tr>
+
+          <tr>
+            <td>Vercel</td>
+            <td>Deployment</td>
+            <td>Hosting</td>
+            <td class="blue">Running</td>
+          </tr>
+
+          <tr>
+            <td>MongoDB</td>
+            <td>Database</td>
+            <td>DB</td>
+            <td class="green">Connected</td>
+          </tr>
+
+          <tr>
+            <td>Firebase</td>
+            <td>Backend</td>
+            <td>BaaS</td>
+            <td class="red">Error</td>
+          </tr>
+
+        </table>
+      </div>
+
+    </div>
   </div>
 
 </div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -27,7 +27,7 @@ html {
 
 /* Navbar */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-color: rgba(26, 28, 31, 0.7) !important;
     backdrop-filter: blur(10px);
 }
 
@@ -486,4 +486,19 @@ a:hover {
     display: flex;
     flex-direction: row !important;
     gap: 20px;
+}
+.magnetic-text {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  will-change: transform;
+}
+.code-style {
+  color: #ccc;
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+.code-tag {
+  color: #198754;
+  font-family: monospace;
 }
